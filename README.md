@@ -29,7 +29,7 @@ npm install auto-client-gen
 ### Development Setup
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Abhi181818/auto-client-gen.git
 cd auto-client-gen
 npm install
 ```
