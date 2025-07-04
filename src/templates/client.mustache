@@ -1,0 +1,19 @@
+// Auto-generated API client
+
+export class APIClient {
+  constructor(baseURL) {
+    this.baseURL = baseURL;
+  }
+
+  {{#apis}}
+  async {{operationId}}(params) {
+    const res = await fetch(`${this.baseURL}{{{path}}}`, {
+      method: '{{method}}',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(params)
+    });
+    return res.json();
+  }
+
+  {{/apis}}
+}

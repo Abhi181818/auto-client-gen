@@ -1,0 +1,30 @@
+{
+  "name": "auto-client-gen",
+  "version": "1.0.0",
+  "description": "A CLI tool and library to auto-generate typed API clients from OpenAPI/Swagger specs",
+  "main": "src/index.js",
+  "bin": {
+    "auto-client-gen": "bin/index.js"
+  },
+  "scripts": {
+    "start": "node bin/index.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "openapi",
+    "swagger",
+    "typescript",
+    "api",
+    "client",
+    "generator",
+    "codegen",
+    "cli"
+  ],
+  "author": "Boss",
+  "license": "MIT",
+  "dependencies": {
+    "swagger-parser": "^10.0.2",
+    "mustache": "^4.2.0",
+    "yaml": "^2.3.1"
+  }
+}
