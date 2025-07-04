@@ -9,7 +9,7 @@ const outputArg = args.find((arg) => arg.startsWith("--output="));
 
 if (!inputArg || !outputArg) {
   console.error(
-    "Usage: typed-openapi-client --input=./openapi.yaml --output=./client.ts"
+    "Usage: auto-client-gen --input=./openapi.yaml --output=./client.ts"
   );
   process.exit(1);
 }
