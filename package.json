@@ -20,7 +20,7 @@
     "codegen",
     "cli"
   ],
-  "author": "Boss",
+  "author": "Abhishek Yadav",
   "license": "MIT",
   "dependencies": {
     "swagger-parser": "^10.0.2",
